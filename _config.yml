@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://jamchamb.github.io"
-title: jamchamb.github.io # site's title
+url: "https://charles-qc.github.io"
+title: charles-qc.github.io # site's title
 description: "jamchamb's blog" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "jamchamb's blog"  # blog's title
+  title: "Seku's blog"  # blog's title
   avatar: # assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
@@ -29,7 +29,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "jamchamb"
+  github: "charles-qc"
   google_plus:
   instagram:
   keybase:
@@ -40,7 +40,7 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "jamchamb_" # "twitter username"
+  twitter: "SekuTw" # "twitter username"
   vimeo:
   wordpress:
   youtube:
