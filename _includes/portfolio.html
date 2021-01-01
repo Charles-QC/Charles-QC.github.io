@@ -1,0 +1,25 @@
+<!-- Portfolio Grid Section -->
+
+<div class="portfolio-grid">
+    {% for item in site.portfolio %}
+    <div class="portfolio-cell">
+        <a href="{{ item.url | prepend: site.baseurl }}">
+          {{ item.title }}
+        </a>
+      <p class="meta">
+        {{ item.date | date: "%B %-d, %Y" }}
+      </p>
+      <a href="{{ site.baseurl }}{{ item.url }}" class="portfolio-link" data-keyboard="true">
+        <!--
+            <div class="caption" title="{{ item.title }}">
+                <div class="caption-content">
+                    <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+            </div>
+            <img src="{{ site.baseurl }}/{{ item.img }}" class="" alt="{{ item.title }}">
+//-->
+        </a>
+        {{ item.excerpt | strip_html | escape | truncate: "200" }}
+    </div>
+    {% endfor %}
+</div>
