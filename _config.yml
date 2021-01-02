@@ -45,7 +45,7 @@ theme_settings:
   youtube:
   
   # Sharing options
-  share_buttons:
+  share_buttons: false
     facebook: true
     twitter: true
     google_plus: true
