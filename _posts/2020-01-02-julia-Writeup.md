@@ -1,0 +1,10 @@
+---
+layout: post
+title: [RE] Julia writeup
+feature-img: "assets/img/thumbnails/julia.PNG"
+thumbnail: "assets/img/thumbnails/julia.PNG"
+tags: []
+---
+
+## Introduction
+test
