@@ -45,17 +45,17 @@ theme_settings:
   youtube:
   
   # Sharing options
-  share_buttons: false
-    facebook: true
-    twitter: true
-    google_plus: true
+  share_buttons:
+    facebook: 
+    twitter: 
+    google_plus: 
     tumblr:
     pinterest:
     pocket:
-    reddit: true
+    reddit: 
     linkedin:
     wordpress:
-    email: true
+    email: 
 
   # Scripts / Features 
   google_analytics: "UA-59558217-1" # Tracking ID, e.g. "UA-000000-01"
