@@ -73,7 +73,7 @@ theme_settings:
   # Localization strings
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
-  str_share_on: "Share on"
+  str_share_on: ""
   str_add_to: "Add to"
   str_email: "Email"
   str_tweet: "Tweet"
