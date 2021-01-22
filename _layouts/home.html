@@ -2,17 +2,10 @@
 layout: default
 ---
 
-<style>
-  .site-header
-  {
-    color: #337AB7;
-  }
-</style>
-
 <div class="home">
   {% if site.theme_settings.header_text %}
   <div id="main" class="call-out"
-  style="background-color:#337AB7; background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
+  style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     {{ site.theme_settings.header_text }}
   </div>
   {% endif %}

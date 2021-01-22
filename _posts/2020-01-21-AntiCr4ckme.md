@@ -17,6 +17,10 @@ This crackme is harder then the last one i did, its .text section is packed. I w
 
 ### Write-up
 
+# AntiDebug Mesures
+
+![ENTROPY]({{ site.baseurl }}/assets/img/aCrackme/entropy.PNG)
+
 Coming soon...
 
 ### Resources
