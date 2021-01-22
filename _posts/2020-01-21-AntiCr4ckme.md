@@ -10,4 +10,6 @@ tags: []
 
 ### Overview
 
+This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and bypass anti-debugging techniques it utilizes.
+
 ### Write-up
