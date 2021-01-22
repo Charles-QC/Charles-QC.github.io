@@ -16,3 +16,9 @@ This crackme is harder then the last one i did, its .text section is packed. I w
 `I figured that its .text section is packed by looking at the entropy with DIE (Detect It Easy)`
 
 ### Write-up
+
+Coming soon...
+
+### Resources
+
+<a href="https://en.wikipedia.org/wiki/Entropy_(computing)">Entropy</a>
