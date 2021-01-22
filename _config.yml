@@ -2,13 +2,13 @@
 baseurl: ""
 url: "https://charles-qc.github.io"
 title: charles-qc.github.io # site's title
-description: "Seku's blog" # used by search engines
+description: "InfoSec blog, write about lot of computer science things!" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: "Seku's blog"  # blog's title
+  title: "Charles's blog"  # blog's title
   avatar: # assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
