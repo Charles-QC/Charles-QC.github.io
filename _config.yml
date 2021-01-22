@@ -2,7 +2,7 @@
 baseurl: ""
 url: "https://charles-blog.me/"
 title: Charles's blog # site's title
-description: "InfoSec blog, write about lot of computer science things!" # used by search engines
+description: "InfoSec" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
