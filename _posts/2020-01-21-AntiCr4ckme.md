@@ -35,7 +35,9 @@ Would you look at this. All these strings have something in common, they are all
 
 And as you can see it crashed when i openned x32dbg. But now that we know all of this why not trying to find this function ? And i did after following many function calls with IDA.
 
-![AD2]({{ site.baseurl }}/assets/img/aCrackme/exit.gif)
+![AD2]({{ site.baseurl }}/assets/img/aCrackme/snapshot.PNG)
+
+I align some of the graphs this way you can clearly see the strings. So i was right, the function does a snapshot of all the running processes and the loops in each of them checking their name. If one of the conditions is true it just exit.
 
 
 
