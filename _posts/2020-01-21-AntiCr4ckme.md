@@ -19,7 +19,7 @@ This crackme is harder then the last one i did, its .text section is packed. I w
 
 #### AntiDebug Mesures
 
-![ENTROPY]({{ site.baseurl }}/assets/img/aCrackme/entropy.PNG)
+![AD1]({{ site.baseurl }}/assets/img/aCrackme/stringScan.PNG)
 
 Would you look at this. All these strings have something in common, they are all popular debugers so if we use our logic the only reason a program would have this is if it would look for them in the memory. Following this theory it would mean that there is a function that does some kind of snapshot of all running processes and check if one of them has the name of one of these strings. We can comfirm this theory just by running the crackme while a "knowned" debuger is running (Not attached).
 
