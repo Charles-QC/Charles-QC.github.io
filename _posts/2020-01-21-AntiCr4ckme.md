@@ -33,13 +33,19 @@ Would you look at this. All these strings have something in common, they are all
 
 ![STOP]({{ site.baseurl }}/assets/img/aCrackme/exit.gif)
 
-And as you can see it crashed when i openned x32dbg. But now that we know all of this why not trying to find this function ? And i did after following many function calls with IDA.
+And as you can see it crashed when i openned x32dbg. But now that we know all of this why not trying to find this function ? And i did no long after looking into some functions with IDA.
 
 ![AD2]({{ site.baseurl }}/assets/img/aCrackme/snapshot.PNG)
 
-I align some of the graphs this way you can clearly see the strings. So i was right, the function does a snapshot of all the running processes and the loops in each of them checking their name. If one of the conditions is true it just exit.
+I align some of the graphs this way you can clearly see the strings. So i was right, the function constantly loop in a separate thread while doing a snapshot of all the running processes then going trought a big condition tree checking if current process in snapshot has the name of a "knowed" debugger.
 
+![EXPLAIN1]({{ site.baseurl }}/assets/img/aCrackme/explain1.PNG)
 
+But i also saw that it was creating another thread, let's see where its 'lpStartAdress' gets us.
+
+![EXPLAIN1]({{ site.baseurl }}/assets/img/aCrackme/explain2.PNG)
+
+Oh boy so it also constantly checks IsDebuggerPresent. I will add some comments and try to look for more anti debugging mesures.
 
 Coming soon...
 
