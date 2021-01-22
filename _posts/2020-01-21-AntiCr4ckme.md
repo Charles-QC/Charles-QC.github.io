@@ -33,7 +33,11 @@ Would you look at this. All these strings have something in common, they are all
 
 ![STOP]({{ site.baseurl }}/assets/img/aCrackme/exit.gif)
 
-And as you can see it crashed when i openned x32dbg. But now that we know all of this why not trying to find this function ?
+And as you can see it crashed when i openned x32dbg. But now that we know all of this why not trying to find this function ? And i did after following many function calls with IDA.
+
+![AD2]({{ site.baseurl }}/assets/img/aCrackme/exit.gif)
+
+
 
 Coming soon...
 
