@@ -1,7 +1,7 @@
 # SITE CONFIGURATION
 baseurl: ""
-url: "https://charles-qc.github.io"
-title: charles-qc.github.io # site's title
+url: "https://charles-blog.me/"
+title: Charles's blog # site's title
 description: "InfoSec blog, write about lot of computer science things!" # used by search engines
 
 
