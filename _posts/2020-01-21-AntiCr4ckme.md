@@ -19,6 +19,8 @@ This crackme is harder then the last one i did, its .text section is packed. I w
 
 The crackme is a console program which asks for a username & password when the inputs are incorrect it just loops back to start.
 
+<hr>
+
 ### Write-up
 
 #### AntiDebug Mesures
@@ -35,4 +37,5 @@ Coming soon...
 
 ### Resources
 
+- <a href="http://www.ntinfo.biz/index.html">DIE (Detect It Easy)</a>
 - <a href="https://en.wikipedia.org/wiki/Entropy_(computing)">Entropy</a>
