@@ -10,6 +10,9 @@ tags: []
 
 ### Overview
 
-This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and bypass anti-debugging techniques it utilizes.
+This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and patch the anti-debugging techniques it utilizes.
+
+![ENTROPY]({{ site.baseurl }}/assets/img/aCrackme/entropy.PNG)
+`I figured that its .text section is packed by looking at the entropy with DIE (Detect It Easy)`
 
 ### Write-up
