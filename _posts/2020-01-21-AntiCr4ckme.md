@@ -21,4 +21,4 @@ Coming soon...
 
 ### Resources
 
-<a href="https://en.wikipedia.org/wiki/Entropy_(computing)">Entropy</a>
+- <a href="https://en.wikipedia.org/wiki/Entropy_(computing)">Entropy</a>
