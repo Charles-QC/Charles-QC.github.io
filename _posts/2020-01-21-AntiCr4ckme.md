@@ -8,6 +8,8 @@ tags: []
 
 <h4>CTF: Reversing [Medium] | <a href="https://crackmes.one/crackme/600098f733c5d42c3d0166c8">LINK_TO_CHALL</a> </h4>
 
+<hr>
+
 ### Overview
 
 This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and find/patch the anti-debugging techniques it utilizes. All links to subjects i wrote about in this write-up will be at the bottom of the page in the <a href="#Resource">Resource</a> section.
