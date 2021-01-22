@@ -10,7 +10,7 @@ tags: []
 
 ### Overview
 
-This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and patch the anti-debugging techniques it utilizes. All links to subjects i wrote about in this write-up will be at the bottom of the page in the <a href="#Resource">Resource</a> section.
+This crackme is harder then the last one i did, its .text section is packed. I will try my best to reverse the encrption and find/patch the anti-debugging techniques it utilizes. All links to subjects i wrote about in this write-up will be at the bottom of the page in the <a href="#Resource">Resource</a> section.
 
 ![ENTROPY]({{ site.baseurl }}/assets/img/aCrackme/entropy.PNG)
 `I figured that its .text section is packed by looking at the entropy with DIE (Detect It Easy)`
