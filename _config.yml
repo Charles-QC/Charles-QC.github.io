@@ -10,7 +10,7 @@ theme_settings:
   # Meta
   title: "Charles's blog"  # blog's title
   avatar: # assets/img/triangle.svg
-  favicon: assets/favicon.ico
+  favicon: assets/icon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
